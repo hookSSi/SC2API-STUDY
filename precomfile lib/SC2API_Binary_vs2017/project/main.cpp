@@ -10,9 +10,9 @@ public:
         std::cout << "Hello, World!" << std::endl;
     }
 
-    virtual void OnStep() final {
-        std::cout << Observation()->GetGameLoop() << std::endl;
-    }
+	virtual void OnStep() final {
+		std::cout << Observation()->GetGameLoop() << std::endl;
+	}
 };
 
 int main(int argc, char* argv[]) {
@@ -21,8 +21,8 @@ int main(int argc, char* argv[]) {
 
     Bot bot;
     coordinator.SetParticipants({
-        CreateParticipant(Race::Terran, &bot),
-        CreateComputer(Race::Zerg)
+        CreateParticipant(Race::Zerg, &bot),
+        CreateComputer(Race::Terran)
     });
 
     coordinator.LaunchStarcraft();
