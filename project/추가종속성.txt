@@ -1,0 +1,8 @@
+civetweb.lib
+libprotobufd.lib
+sc2libd.lib
+sc2apid.lib
+sc2protocold.lib
+sc2rendererd.lib
+sc2utilsd.lib
+SDL2.lib

@@ -1,0 +1,1 @@
+_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)
